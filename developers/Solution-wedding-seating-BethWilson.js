@@ -90,7 +90,7 @@ push the party to the table instance's parties array and change the attribute fo
 
 
 /* This function contains the main logic. I'm using nested forEach() functions, so this solution
-will take at least n^2 runtime. */
+will take at least n^2 runtime, maybe n^3, since I'm also calling .includes() in both conditions. */
 
 sortedParties().forEach(party => {
   if (maxTableSize() < party.size) {
