@@ -39,3 +39,31 @@ When thinking abut how to structure your solution think about how you would typi
 
 #### How am I evaluated?
 As with all ByteCubed Challenges, we are more concerned about how you went about solving and thinking about the problem than anything else.  We use this as a data point within our interview process and it is meant to help drive the conversation.
+
+
+const reservations = {
+    "Thornton": {
+      "party": 3,
+      'dislikes':[]
+    },
+    "Garcia": {
+      "party": 2,
+      'dislikes':[]
+    },
+    "Owens": {
+      'party': 6,
+      'dislikes': ["Thornton", "Taylor"]
+    },
+    "Smith": {
+      'party': 1,
+      'dislikes': ["Garcia"]
+    },
+    "Taylor": {
+      'party': 5,
+      'dislkes':[]
+    },
+    "Reese": {
+      'party': 7,
+      'dislkes':[]
+    }
+  }
